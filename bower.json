@@ -1,0 +1,31 @@
+{
+  "name": "DateBox",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Bjodol/DateBox",
+  "description": "A magic box that helps couples finding stuff to do!",
+  "main": "runserver.py",
+  "keywords": [
+    "Dates",
+    "ThingsToDo",
+    "Love"
+  ],
+  "authors": [
+    "Bjodol and atoobi"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.11.0",
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.21",
+    "jquery": "~2.1.1",
+    "angular-ui-router": "~0.2.10"
+  }
+}
