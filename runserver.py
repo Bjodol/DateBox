@@ -19,17 +19,18 @@ env.register(
         'angular/angular.js',
         'angular-bootstrap/ui-bootstrap-tpls.min.js',
         'angular-ui-router/release/angular-ui-router.js',
+        'home-ctrl.js',
+        'datebox.js',
         #filters='jsmin',
         output='datebox.js'
     )
 )
 
-
-
 env.register(
     'css_all',
     assets.Bundle(
         'bootstrap/dist/css/bootstrap.css',
+        'datebox.css',
         #filters='cssmin',
         output='datebox.css'
     )

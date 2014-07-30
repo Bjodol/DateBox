@@ -1,7 +1,7 @@
 //entry point for the application
-var app = angular.module('Cloudure',[
+var app = angular.module('Datebox',[
 	'ui.router',
-	'ui.bootstrap'
+	'ui.bootstrap',
 ]);
 
 //routing configuration for the application
@@ -11,7 +11,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state('home', {
 			url: "/home",
-			templateUrl: "",
+			templateUrl: "static/partials/home.html",
 			controller: homeCtrl
 		})
 });
