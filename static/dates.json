@@ -1,4 +1,5 @@
-[{ "text":"learn angular", "done":true },
- { "text":"build an angular app", "done":false},
- { "text":"something", "done":false },
- { "text":"another todo", "done":true }]
+[{ "name":"learn angular", "money":"much", "preperation":true, "place":"home", "weather":"summer" },
+{ "name":"cinema", "money":"free", "preperation":false, "place":"away", "weather":"summer" },
+{ "name":"eat", "money":"much", "preperation":true, "place":"away", "weather":"winter" },
+{ "name":"sex", "money":"less", "preperation":false, "place":"home", "weather":"" },
+{ "name":"sleep", "money":"free", "preperation":true, "place":"away", "weather":"summer" }]

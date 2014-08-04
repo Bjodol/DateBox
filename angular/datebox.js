@@ -15,3 +15,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
 			controller: homeCtrl
 		})
 });
+
+function NavBarCtrl($scope) {
+    $scope.isCollapsed = true;
+}

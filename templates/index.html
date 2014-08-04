@@ -8,8 +8,25 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-<div ui-view>
-</div>
+	<nav class="navbar nav-datebox navbar-fixed-top" ng-controller="NavBarCtrl">
+		<div class="container-fluid">
+			<div class="navbar-header">
+		     	<button type="button" class="navbar-toggle nav-datebox" ng-click="isCollapsed = !isCollapsed">
+		        	<i class="fa fa-bars"></i>
+		      	</button>
+		      	<a class="nav-datebox navbar-brand">Datebox</a>
+		    </div>
+		    <div class="collapse navbar-collapse" collapse="isCollapsed">
+      			<ul class="nav navbar-nav">
+      				<li><a class="nav-datebox">Dates</a></li>
+      				<li><a class="nav-datebox">Suggest Date</a></li>
+      			</ul>
+      		</div>
+		</div>
+	</nav>
+	<div class="container main-container">
+		<div ui-view></div>
+	</div>
 {% assets "js_all" %}
 <script type="text/javascript" src="{{ ASSET_URL }}"></script>
 {% endassets %}

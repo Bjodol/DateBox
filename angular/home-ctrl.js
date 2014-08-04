@@ -3,4 +3,5 @@ function homeCtrl($scope, $log, $http){
 		.then(function(res) {
 			$scope.dates = res.data;
 		});
+
 };
